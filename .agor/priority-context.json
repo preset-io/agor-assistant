@@ -1,0 +1,4 @@
+{
+  "files": ["SOUL.md", "IDENTITY.md", "USER.md", "ONBOARDING.md"],
+  "onMissing": "skip"
+}

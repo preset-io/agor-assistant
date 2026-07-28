@@ -30,7 +30,7 @@ Rule of thumb: be upfront when it affects review, sharing, trust, future retriev
 | **Agor Knowledge** | Long-lived knowledge, reference material, project docs | Semantic + fulltext search and graph links |
 | **Agor Knowledge** | Lightweight reusable skill instructions/procedures that should be discovered or shared | Easier to keep current and link across docs |
 | **Agor Knowledge** | Shareable artifacts for the user | Proper review/share links and visibility controls |
-| **Local filesystem** | `AGENTS.md`, `BOOT.md`, `ONBOARDING.md`, `SOUL.md`, `IDENTITY.md`, `USER.md` | Core teammate brainstem/system context |
+| **Local filesystem** | `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `ONBOARDING.md`, `SOUL.md`, `IDENTITY.md`, `USER.md`, `.agor/priority-context.json` | Core teammate brainstem/system context |
 | **Local filesystem** | `KNOWLEDGE.md` high-level operating model and optional namespace overview | Helps sessions start without mirroring Knowledge |
 | **Local filesystem** | Executable skills, scripts, config, templates, data files, test fixtures | Belongs to the git repo and local execution/runtime environment |
 | **Local filesystem** | Temporary edits/materialized Knowledge docs | Useful for editor/test workflows before publishing back to Knowledge |
