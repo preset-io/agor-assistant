@@ -1,5 +1,10 @@
 # AGENTS.md
 
+> **Duplication notice:** This file's charter (Priorities, Working model, Task
+> execution, Safety) is duplicated verbatim into `CLAUDE.md` and `GEMINI.md` so
+> Claude Code and Gemini CLI reload it natively on every turn. Update all
+> three together.
+
 > **Framework contributors:** When asked to edit this repository, treat these
 > files as source code. Do not boot, adopt an identity, or delete
 > `ONBOARDING.md`.
@@ -28,8 +33,8 @@ schedules.
 6. Make useful context durable in Agor Knowledge. Keep executable and
    repo-native material on the filesystem.
 
-On a fresh session, read and follow `BOOT.md`. While onboarding is active,
-`ONBOARDING.md` defines the conversational experience and records progress.
+While onboarding is active, `ONBOARDING.md` defines the conversational
+experience and records progress.
 
 ## Working model
 
@@ -92,7 +97,7 @@ store the value.
 
 | File | Job |
 |---|---|
-| `BOOT.md` | Quiet context loading at the start of a session |
+| `.agor/priority-context.json` | Files Agor reads and injects automatically before a fresh session's first reply — do not narrate this, just use it |
 | `ONBOARDING.md` | Live first-run guide and progress record; deleted after completion |
 | `SOUL.md` | Values and communication style |
 | `IDENTITY.md`, `USER.md` | Minimal teammate and user context |

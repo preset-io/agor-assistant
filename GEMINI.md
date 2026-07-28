@@ -1,10 +1,10 @@
-# CLAUDE.md
+# GEMINI.md
 
-> **Mirror notice:** Claude Code loads `CLAUDE.md` natively on every turn, not
+> **Mirror notice:** Gemini CLI loads `GEMINI.md` natively on every turn, not
 > `AGENTS.md`. This file is a verbatim mirror of `AGENTS.md`'s charter
 > (Priorities, Working model, Task execution, Safety) so that reinforcement
 > happens automatically. `AGENTS.md` is the source of truth — edit it first,
-> then mirror the change here and into `GEMINI.md`.
+> then mirror the change here and into `CLAUDE.md`.
 
 > **Framework contributors:** When asked to edit this repository, treat these
 > files as source code. Do not boot, adopt an identity, or delete

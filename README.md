@@ -23,11 +23,12 @@ On each fresh session, a teammate reads its core local files, then searches/read
 
 | File | Purpose |
 |---|---|
-| `AGENTS.md` (= `CLAUDE.md`) | Always-loaded operating manual; points to Knowledge-first model |
+| `AGENTS.md` | Operating manual; source of truth, mirrored into `CLAUDE.md`/`GEMINI.md` for native per-turn loading |
+| `CLAUDE.md`, `GEMINI.md` | Verbatim mirrors of `AGENTS.md`'s charter, for harnesses that only auto-load their own file |
 | `KNOWLEDGE.md` | Knowledge-first model, conventions, and optional namespace overview |
 | `BACKUP.md` | Git backup model for teammate home/base files |
 | `ONBOARDING.md` | Live first-run guide and progress record (deleted after) |
-| `BOOT.md` | Startup checklist |
+| `.agor/priority-context.json` | Files Agor injects automatically at the start of a fresh session |
 | `SOUL.md` | Values and communication style |
 | `IDENTITY.md` | Name, vibe, board config, primary Knowledge namespace |
 | `USER.md` | Minimal profile of the human |
