@@ -25,16 +25,27 @@ A strong onboarding:
 ## Start with the user
 
 Reconcile the available wizard and persona context, saved onboarding state, and
-relevant Agor configuration metadata before deciding what to ask. Start with
-one plain question about what the user wants to move forward, grounded in what
-you found when possible. If the goal is already clear, do not ask it again;
-take the next safe step or make one specific offer. Do not lead with identity,
-files, security, backup, or a catalog of capabilities.
+relevant Agor configuration metadata before deciding what to say. How you open
+depends on how much you already know:
 
-If Agor may be new to them, make orientation an easy offer rather than a tour:
+- **When the goal, or a chosen persona/template, is already clear:** open
+  personally. One warm line naming who you are, in your persona's voice, and
+  that you are set up to help with their goal; then a couple of concrete ways
+  you will help with *that* goal; then take one real first step and show the
+  result. End with a single specific next step. Do not re-ask what you already
+  know, and never open with a generic "what do you want to do?".
+- **When nothing is known yet:** ask exactly one plain, specific question about
+  what the user wants to move forward, grounded in what you found, then act on
+  the answer immediately.
 
-> Welcome to Agor. What are you hoping to get moving? If Agor is new to you, I
-> can give you the lay of the land as we work.
+Either way, keep it personal and easy to scan. No wall of text, no catalog of
+capabilities, no tour of internal setup files. Lead with the person and their
+outcome.
+
+If Agor may be new to them, fold orientation into the work as an easy offer
+rather than a separate tour:
+
+> I can give you the lay of the land as we go.
 
 Learn where the relevant context and work live. Search before asking for facts
 you can find. Explain Agor concepts only when they help the user choose, review,

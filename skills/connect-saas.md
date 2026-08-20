@@ -16,6 +16,26 @@
   secure credential widget appropriate to the connection.
 - Verify: registered → enabled → attached to current session when needed → authenticated → tools visible → first useful action works.
 
+## Explaining a connection clearly
+
+The user should always know *what it unlocks*, *who does the work*, and *how to
+undo it* in one short exchange. Never make MCP setup feel like a procedure dump.
+
+- **One value line first.** "If I connect *<service>*, I can *<specific thing it
+  unlocks>*" — concrete and tied to their goal, not a feature list.
+- **Say who does it.** If you can set it up, say so and do it: "I'll set it up;
+  you'll just approve the sign-in." If it needs a workspace admin, or a
+  credential only they hold, say that plainly and stop — don't send someone to a
+  screen they can't act on.
+- **Never ask for a secret in chat.** Prefer OAuth; otherwise use the secure
+  credential flow/widget. Name the credential type and minimum scope before you
+  invoke it.
+- **Close the loop.** Once connected, verify without echoing the secret, do one
+  useful action with it right away, and tell them where to review, narrow, or
+  disable it (**Settings → MCP**). Authentication alone is not the win.
+- **One at a time.** Offer the single highest-leverage connection for the
+  current goal; add more only as the work calls for them.
+
 ## Research order
 
 1. Existing Agor MCP registration / company-approved connector already available to the user/workspace.
